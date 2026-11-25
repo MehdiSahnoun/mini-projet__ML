@@ -1,0 +1,61 @@
+{
+  "model": "LogisticRegression (TfidfVectorizer)",
+  "n_train_samples": 24,
+  "classes": [
+    "negatif",
+    "neutre",
+    "positif"
+  ],
+  "accuracy": 1.0,
+  "classification_report": {
+    "negatif": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "neutre": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "positif": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      8
+    ]
+  ],
+  "vocabulary_size": 142
+}

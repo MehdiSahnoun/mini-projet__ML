@@ -1,0 +1,25 @@
+# --- Web / API ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# --- ML ---
+scikit-learn>=1.4.0
+pandas>=2.0.0
+numpy>=1.26.0
+
+# --- Prétraitement ---
+pillow>=10.0.0
+pytesseract>=0.3.10
+openai-whisper>=20240930  # Transcription audio (ASR); nécessite ffmpeg, voir bin/
+
+# --- Binaire ffmpeg fourni dans ./bin/ (voir README.md) ---
+imageio-ffmpeg>=0.4.9
+
+# --- Mini-app web de test (Option B) ---
+streamlit>=1.35.0
+requests>=2.31.0
+
+# --- Tests ---
+httpx>=0.27.0
+pytest>=8.0.0

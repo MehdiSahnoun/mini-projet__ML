@@ -1,0 +1,13 @@
+# Fichiers Python
+__pycache__/
+*.pyc
+
+# Cache pytest
+.pytest_cache/
+
+# Binaire ffmpeg statique (fourni via le paquet imageio-ffmpeg, voir README.md)
+bin/
+
+# Fichiers temporaires / notes locales
+.idea/
+.vscode/
